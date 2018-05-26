@@ -16,8 +16,6 @@
   // hint: use GET to get the result from the server
   // example: http://localhost:3000/echo?value=hello
 
-  // When the server responds, parse the response.
-
   // Show the response in the DOM so the user can see.
 
 })()

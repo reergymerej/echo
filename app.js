@@ -19,6 +19,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+app.get('/echo', (req, res) => {
+  const value = req.query.value
+  const transformedValue = value.split('').reverse().join('')
+  res.send(transformedValue)
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

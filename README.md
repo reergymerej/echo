@@ -37,8 +37,3 @@ cd echo
 npm start # runs the "start" script in package.json
 # https://docs.npmjs.com/misc/scripts
 ```
-
-
-## TODO
-
-* Find where you need to write code.  (Look for "Hey, Trey!".)
